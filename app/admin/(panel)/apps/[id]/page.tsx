@@ -34,6 +34,7 @@ export default async function EditAppPage({ params }: PageProps) {
 
       <AppForm
         mode="edit"
+        includeInstaller={releases.length === 0}
         app={{
           id: app.id,
           name: app.name,

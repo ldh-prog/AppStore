@@ -7,7 +7,9 @@ export default function NewAppPage() {
     <div className="mx-auto max-w-3xl space-y-6">
       <div>
         <h1 className="text-3xl font-semibold tracking-tight">앱 등록</h1>
-        <p className="text-sm text-muted-foreground">이름과 패키지 이름을 저장한 뒤 아이콘과 스크린샷을 올립니다.</p>
+        <p className="text-sm text-muted-foreground">
+          이름, 패키지 이름, 첫 설치 파일을 함께 등록합니다. 다음 버전은 앱 수정 화면의 새 버전에서 올립니다.
+        </p>
       </div>
       <AppForm mode="create" />
     </div>
